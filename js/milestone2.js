@@ -1,7 +1,5 @@
 const rowWrapper = document.querySelector(".row");
-const levare = " È buZz o fizz";
-
-for (let i = 1 ; i <= 100 ; i ++) {
+for (let i = 1 ; i <= 1000 ; i ++) {
     const newBox = document.createElement("div");
     newBox.classList.add ("box");
     if (!(i % 3)){
