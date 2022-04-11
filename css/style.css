@@ -6,11 +6,13 @@
 h1 {
     color: white;
     font-size: 4rem;
+    margin: 15px;
+    text-align: center;
 }
+
 body {
     background-color: #083b4c;
     font-family: sans-serif;
-    margin: 30px;
 }
 .container {
     display: flex;
@@ -18,16 +20,18 @@ body {
     align-items: center;
 }
 .row {
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
 
 }
 .box {
     font-weight: 600;
-    height: 100px;
-    width: 100px;
-    line-height: 100px;
-    background-color: #1389b2;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
     text-align: center;
-    margin: 30px;
+    margin: 5px;
+
+    background-color: #1389b2;
 }
