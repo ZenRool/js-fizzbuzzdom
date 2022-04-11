@@ -9,7 +9,6 @@ h1 {
     margin: 15px;
     text-align: center;
 }
-
 body {
     background-color: #083b4c;
     font-family: sans-serif;
@@ -32,6 +31,15 @@ body {
     line-height: 90px;
     text-align: center;
     margin: 5px;
-
     background-color: #1389b2;
+}
+/* BACKGROUND  */
+.fizz {
+    background-color: #0cd6a1;
+}
+.buzz  {
+    background-color: #ffd166;
+}
+.fizzbuzz {
+    background-color: #f0466f;
 }
