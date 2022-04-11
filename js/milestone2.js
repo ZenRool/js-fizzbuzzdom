@@ -10,9 +10,8 @@ for (let i = 1 ; i <= 100 ; i ++) {
         newBox.innerHTML += "Buzz";
     }
     // Piripicchio 
-    if (!(i % 7) || stringI[stringI.length -1 ] == "7"){
+    if (!(i % 7) || stringI[stringI.length -1 ] == "7") {
         newBox.innerHTML += "Piripicchio";
-        newBox.classList.add ((newBox.innerHTML).toLowerCase());
     }
     if (!newBox.innerHTML) {
         newBox.innerHTML = i;
